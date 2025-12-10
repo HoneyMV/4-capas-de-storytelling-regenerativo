@@ -17,6 +17,8 @@
     --gold: 36 46% 67%;           /* #D4B483 - Dorado suave */
     --cream: 40 38% 95%;          /* #F7F2EA - Crema */
     --deep-black: 0 0% 4%;        /* #0B0B0B - Negro profundo */
+    --terracotta: 16 65% 55%;     /* #C96442 - Terracota cálido */
+    --warm-white: 40 30% 98%;     /* #FDFBF8 - Blanco cálido */
     
     /* Semantic tokens */
     --background: 40 38% 95%;     /* Crema */
@@ -165,5 +167,25 @@
   
   .border-forest {
     border-color: hsl(var(--forest));
+  }
+  
+  .bg-terracotta {
+    background-color: hsl(var(--terracotta));
+  }
+  
+  .bg-warm-white {
+    background-color: hsl(var(--warm-white));
+  }
+  
+  .text-terracotta {
+    color: hsl(var(--terracotta));
+  }
+  
+  .text-warm-white {
+    color: hsl(var(--warm-white));
+  }
+  
+  .border-terracotta {
+    border-color: hsl(var(--terracotta));
   }
 }
