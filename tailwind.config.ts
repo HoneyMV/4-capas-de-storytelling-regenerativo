@@ -27,6 +27,8 @@ export default {
         gold: "hsl(var(--gold))",
         cream: "hsl(var(--cream))",
         "deep-black": "hsl(var(--deep-black))",
+        terracotta: "hsl(var(--terracotta))",
+        "warm-white": "hsl(var(--warm-white))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
